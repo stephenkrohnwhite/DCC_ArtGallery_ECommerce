@@ -21,6 +21,14 @@ namespace ArtGallery_ECommerce.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<ProductSize> ProductSize { get; set; }
+        public DbSet<Categories> Categories { get; set; }
+        public DbSet<Products> Products { get; set; }
+        public DbSet<Status> Status { get; set; }
+        public DbSet<Address> Address { get; set; }
+        public DbSet<Customer> Customer { get; set; }
+        public DbSet<Order> Order { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {

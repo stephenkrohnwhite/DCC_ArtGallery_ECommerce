@@ -10,6 +10,7 @@ namespace ArtGallery_ECommerce.Models
     {
         [Key]
         public int ProductSizeId { get; set; }
+
         public string Size { get; set; }
     }
 }

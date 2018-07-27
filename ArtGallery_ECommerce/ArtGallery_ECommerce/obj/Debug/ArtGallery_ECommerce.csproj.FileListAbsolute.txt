@@ -121,3 +121,6 @@ C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery
 C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.InitialCreate.resources
 C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.csproj.GenerateResource.cache
 C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.addeduserrolestringtoidentitymodel.resources
+C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.addingemployeeandproductsidetables.resources
+C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.addingproductandemployeemodels.resources
+C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.addingcustomerandordertables.resources

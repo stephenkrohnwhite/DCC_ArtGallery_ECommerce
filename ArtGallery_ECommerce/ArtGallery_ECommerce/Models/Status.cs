@@ -10,6 +10,7 @@ namespace ArtGallery_ECommerce.Models
     {
         [Key]
         public int StatusId { get; set; }
+
         public string Name { get; set; }
     }
 }
