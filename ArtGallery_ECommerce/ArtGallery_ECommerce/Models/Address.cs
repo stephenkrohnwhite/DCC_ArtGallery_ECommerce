@@ -20,14 +20,12 @@ namespace ArtGallery_ECommerce.Models
         [Display(Name = "Zip Code")]
         public string ZipCode { get; set; }
 
-        [Required]
-        [Display(Name = "Country")]
-        public string SelectedCountryIso3 { get; set; }
-        public IEnumerable<SelectListItem> Countries { get; set; }
 
         [Required]
-        [Display(Name = "State / Region")]
-        public string SelectedRegionCode { get; set; }
-        public IEnumerable<SelectListItem> Regions { get; set; }
+        [Display(Name = "State")]
+        [RegularExpression("[A-Z]{2}")]
+        public string State { get; set; }
+
+        
     }
 }
