@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using ArtGallery_ECommerce.Models;
+using Microsoft.AspNet.Identity;
 
 namespace ArtGallery_ECommerce.Controllers
 {
@@ -50,6 +51,11 @@ namespace ArtGallery_ECommerce.Controllers
         {
             if (ModelState.IsValid)
             {
+                string currentId = User.Identity.GetUserId();
+                var userJunction = db.Users.Where(u => u.Id == currentId).First();
+                employee.UserID = userJunction.Id;
+                
+
                 db.Employees.Add(employee);
                 db.SaveChanges();
                 return RedirectToAction("Index");

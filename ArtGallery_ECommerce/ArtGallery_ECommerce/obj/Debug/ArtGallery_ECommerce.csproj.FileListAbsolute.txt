@@ -124,3 +124,4 @@ C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery
 C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.addingemployeeandproductsidetables.resources
 C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.addingproductandemployeemodels.resources
 C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.addingcustomerandordertables.resources
+C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.removingregionandcountryfieldsinaddress.resources
