@@ -9,9 +9,11 @@ namespace ArtGallery_ECommerce.Models
     public class Employee
     {
         [Key]
-        int EmployeeID { get; set; }
-        string UserID { get; set; }
-        string FirstName { get; set; }
-        string LastName { get; set; }
+        public int EmployeeID { get; set; }
+        public string UserID { get; set; }
+        [Display(Name = "First Name")]
+        public string FirstName { get; set; }
+        [Display(Name = "Last Name")]
+        public string LastName { get; set; }
     }
 }

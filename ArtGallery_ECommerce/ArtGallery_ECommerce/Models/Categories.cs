@@ -9,7 +9,8 @@ namespace ArtGallery_ECommerce.Models
     public class Categories
     {
         [Key]
-        int CategoryId { get; set; }
-        string Name { get; set; }
+        public int CategoryId { get; set; }
+        [Display(Name = "Name")]
+        public string Name { get; set; }
     }
 }
