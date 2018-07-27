@@ -11,20 +11,32 @@ namespace ArtGallery_ECommerce.Models
     {
         [Key]
         public int ProductId { get; set; }
+
         [Display(Name = "Product Name")]
         public string Name { get; set; }
+
         public string Artist { get; set; }
+
         public double Price { get; set; }
+
         [Display(Name = "Available")]
         public bool InStock { get; set; }
+
         public string Description { get; set; }
-        [ForeignKey("ProductSize")]
+
+        [ForeignKey("Size")]
         public int ProductSizeId { get; set; }
+
+        [Display(Name = "Size")]
         public ProductSize Size { get; set; }
+
         public IEnumerable<ProductSize> SizeList { get; set; }
+
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
+
         public Categories Category { get; set; }
+
         public IEnumerable<Categories> CategoriesList { get; set; }
     }
 }
