@@ -1,0 +1,52 @@
+﻿@model ArtGallery_ECommerce.Models.Categories
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="row">
+    <div class="col-xs-12 col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+            @if (Model.Name == "Abstract")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/1">ABSTRACT</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/1">ABSTRACT</a>
+                </li>
+            }
+@*REPEAT ABOVE FOR EACH CATEGORY*@
+
+        </ul>
+    </div>
+    <div class="col-xs-12 col-md-9">
+        <div class="row">
+            @foreach (var product in Model.Products)
+            {
+                <div class="col-xs-12 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="~/Content/Images/Products/@(product.Name).png">
+                        <div class="caption text-center">
+                            <p>
+                                <b>Name:</b> <span>@product.Name</span>
+                            </p>
+                            <p>
+                                <b>Price:</b> <span>@product.Price USD</span>
+                            </p>
+                            <p class="text-center">
+                                @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = product.ProductId }, new { @class = "btn btn-info" })
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

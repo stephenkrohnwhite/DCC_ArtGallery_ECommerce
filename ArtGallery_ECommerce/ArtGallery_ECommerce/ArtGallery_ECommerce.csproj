@@ -194,6 +194,7 @@
     <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\StoreFrontController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -220,6 +221,10 @@
     <Compile Include="Migrations\201807271413216_removing region and country fields in address.cs" />
     <Compile Include="Migrations\201807271413216_removing region and country fields in address.Designer.cs">
       <DependentUpon>201807271413216_removing region and country fields in address.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807280418277_fixed spelling error in createrolls%28%29.cs" />
+    <Compile Include="Migrations\201807280418277_fixed spelling error in createrolls%28%29.Designer.cs">
+      <DependentUpon>201807280418277_fixed spelling error in createrolls%28%29.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -307,6 +312,7 @@
     <Content Include="Views\Customers\Edit.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Address.cshtml" />
+    <Content Include="Views\StoreFront\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -342,6 +348,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807271413216_removing region and country fields in address.resx">
       <DependentUpon>201807271413216_removing region and country fields in address.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807280418277_fixed spelling error in createrolls%28%29.resx">
+      <DependentUpon>201807280418277_fixed spelling error in createrolls%28%29.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

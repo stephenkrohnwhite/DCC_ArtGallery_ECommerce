@@ -1,19 +1,25 @@
-﻿@{
+﻿@model ArtGallery_ECommerce.Models.Categories
+@{
     ViewBag.Title = "Home Page";
 }
 
 <div class="jumbotron">
-    
+    <h1>Welcome To Painted Plunders!</h1>
+    <h3>We're glad you're here.</h3>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-       
-    </div>
-    <div class="col-md-4">
-        
-    </div>
-    <div class="col-md-4">
-        
+<h3 class="text-center">Click on a category below to get started</h3><br />
+
+@*Repeat below w/each category in DB*@
+<div class="col-xs-12 col-md-9">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="categorywrap">
+                <a href="~/StoreFront/Index/1">
+                    <h2>Abstract</h2>
+                    @*<img src="~/Content/Images/dairyicon.png" alt="" />*@
+                </a>
+            </div>
+        </div>
     </div>
 </div>
