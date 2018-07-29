@@ -249,6 +249,13 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\abstractIcon.jpg" />
+    <Content Include="Content\Images\artNouveauIcon.jpg" />
+    <Content Include="Content\Images\expressionismIcon.jpg" />
+    <Content Include="Content\Images\impressionismIcon.jpg" />
+    <Content Include="Content\Images\photorealismIcon.jpg" />
+    <Content Include="Content\Images\popArtIcon.png" />
+    <Content Include="Content\Images\realismIcon.jpeg" />
     <Content Include="Content\SketchyTheme.css" />
     <Content Include="Content\YetiBootswatch.css" />
     <Content Include="favicon.ico" />

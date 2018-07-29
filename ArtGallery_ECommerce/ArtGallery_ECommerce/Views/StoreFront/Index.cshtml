@@ -7,25 +7,96 @@
 
 <h2>Index</h2>
 
-<div class="row">
-    <div class="col-xs-12 col-md-3">
-        <ul class="nav nav-pills nav-stacked">
+@*<div class="row">*@
+    @*<div class="col-xs-12 col-md-3">*@
+        <ul class="nav nav-pills nav-justified-ce">
             @if (Model.Name == "Abstract")
             {
                 <li class="active">
-                    <a href="~/StoreFront/Index/1">ABSTRACT</a>
+                    <a href="~/StoreFront/Index/1">Abstract</a>
                 </li>
             }
             else
             {
                 <li>
-                    <a href="~/StoreFront/Index/1">ABSTRACT</a>
+                    <a href="~/StoreFront/Index/1">Abstract</a>
                 </li>
             }
-@*REPEAT ABOVE FOR EACH CATEGORY*@
+            @if (Model.Name == "Art Nouveau")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/2">Art Nouveau</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/2">Art Nouveau</a>
+                </li>
+            }
+            @if (Model.Name == "Expressionism")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/5">Expressionism</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/5">Expressionism</a>
+                </li>
+            }
+            @if (Model.Name == "Impressionism")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/3">Impressionism</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/3">Impressionism</a>
+                </li>
+            }
+            @if (Model.Name == "Photorealism")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/6">Photorealism</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/6">Photorealism</a>
+                </li>
+            }
+            @if (Model.Name == "Pop Art")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/7">Pop Art</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/7">Pop Art</a>
+                </li>
+            }
+            @if (Model.Name == "Realism")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/4">Realism</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/4">Realism</a>
+                </li>
+            }
 
         </ul>
-    </div>
+    @*</div>*@
     <div class="col-xs-12 col-md-9">
         <div class="row">
             @foreach (var product in Model.Products)
