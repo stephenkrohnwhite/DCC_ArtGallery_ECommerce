@@ -1,19 +1,78 @@
-﻿@{
+﻿@model ArtGallery_ECommerce.Models.Categories
+@{
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    
+
+<div class="w3-content">
+    <img class="mySlides" src="~/Content/Images/oilBeginnersClassAd.jpg" alt="oil_paint_class" style="width:100%">
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-       
-    </div>
-    <div class="col-md-4">
-        
-    </div>
-    <div class="col-md-4">
-        
-    </div>
+<br/>
+
+<div class="jumbotron">
+    <h1>Welcome To Painted Plunders!</h1>
+    <h3>We're glad you're here.</h3>
 </div>
+
+<h3 class="text-center">Click on a category below to get started</h3><br />
+
+    <div class="row justify-content-md-center card-deck mt-3">
+        <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+            <div class="card-header">
+                <a href="~/StoreFront/Index/1"> Abstract </a></div>
+                <div class="card-body">
+                    <img src="~/Content/Images/abstractIcon.jpg" width="240" height="183" alt="" />
+                </div>
+            </div>
+        <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+            <div class="card-header">            
+                <a href="~/StoreFront/Index/2"> Art Nouveau</a>
+            </div>
+            <div class="card-body">
+                    <img src="~/Content/Images/artNouveauIcon.jpg" width="160" height="190" alt="" />
+                </div>
+            </div>
+        <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+            <div class="card-header">
+                <a href="~/StoreFront/Index/5">Expressionism</a>
+            </div>
+            <div class="card-body">
+                <img src="~/Content/Images/expressionismIcon.jpg" width="160" height="183" alt="" />
+            </div>
+        </div>
+        <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+            <div class="card-header">
+                <a href="~/StoreFront/Index/3">Impressionism</a>
+            </div>
+                <div class="card-body">
+                    <img src="~/Content/Images/impressionismIcon.jpg" width="240" height="183" alt="" />
+                </div>
+            </div>
+    </div>
+    <div class="row justify-content-md-center card-deck mt-3">
+        <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+            <div class="card-header">
+                <a href="~/StoreFront/Index/6">Photorealism</a>
+            </div>
+            <div class="card-body">
+                <img src="~/Content/Images/photorealismIcon.jpg" width="220" height="183" alt="" />
+            </div>
+        </div>
+        <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+            <div class="card-header">
+                <a href="~/StoreFront/Index/7">Pop Art</a>
+            </div>
+            <div class="card-body">
+                <img src="~/Content/Images/popArtIcon.png" width="240" height="183" alt="" />
+            </div>
+        </div>
+        <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+            <div class="card-header">
+                <a href="~/StoreFront/Index/4">Realism</a>
+            </div>
+            <div class="card-body">
+                <img src="~/Content/Images/realismIcon.jpeg" width="240" height="183" alt="" />
+            </div>
+        </div>
+    </div>

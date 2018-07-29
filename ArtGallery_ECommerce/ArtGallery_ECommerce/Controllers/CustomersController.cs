@@ -71,7 +71,7 @@ namespace ArtGallery_ECommerce.Controllers
 
                 db.Customer.Add(customer);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
 
             ViewBag.AddressId = new SelectList(db.Address, "AddressId", "SteetAddress", customer.AddressId);

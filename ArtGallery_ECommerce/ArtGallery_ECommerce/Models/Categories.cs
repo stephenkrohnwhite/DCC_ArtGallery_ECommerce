@@ -13,5 +13,7 @@ namespace ArtGallery_ECommerce.Models
 
         [Display(Name = "Name")]
         public string Name { get; set; }
+
+        public virtual ICollection<Products> Products { get; set; }
     }
 }
