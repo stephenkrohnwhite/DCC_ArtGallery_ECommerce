@@ -66,7 +66,13 @@ body {
     margin: 0;
     font-family: "Neucha", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-size: 1.5rem;
+||||||| merged common ancestors
+    font-size: 2rem;
+=======
+    font-size: 1.4rem;
+>>>>>>> b800b1042d20559fdbcd36237b094bf7c9330178
 ||||||| merged common ancestors
     font-size: 2rem;
 =======
@@ -2062,7 +2068,13 @@ pre {
     height: calc(2.25rem + 4px);
     padding: 0.375rem 0.75rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-size: 1.3rem;
+||||||| merged common ancestors
+    font-size: 4rem;
+=======
+    font-size: 1.25rem;
+>>>>>>> b800b1042d20559fdbcd36237b094bf7c9330178
 ||||||| merged common ancestors
     font-size: 4rem;
 =======
