@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
+
 namespace ArtGallery_ECommerce.Models
 {
     public class ExternalLoginConfirmationViewModel
@@ -70,7 +71,7 @@ namespace ArtGallery_ECommerce.Models
         public string Email { get; set; }
 
         [Required]
-        [Display(Name = "UserRole")]
+        [Display(Name = "Account Type")]
         public string UserRole { get; set;  }
 
         [Required]
@@ -83,6 +84,7 @@ namespace ArtGallery_ECommerce.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
     }
 
     public class ResetPasswordViewModel

@@ -6,10 +6,12 @@
 }
 
 <h2>Index</h2>
+<br/>
+<br/>
 
-@*<div class="row">*@
-    @*<div class="col-xs-12 col-md-3">*@
-        <ul class="nav nav-pills nav-justified-ce">
+<div class="row">
+    <div class="col-xs-12 col-md-12">
+        <ul class="nav nav-pills nav-stacked">
             @if (Model.Name == "Abstract")
             {
                 <li class="active">
@@ -96,7 +98,8 @@
             }
 
         </ul>
-    @*</div>*@
+    </div>
+    </div>
     <div class="col-xs-12 col-md-9">
         <div class="row">
             @foreach (var product in Model.Products)
@@ -120,4 +123,3 @@
             }
         </div>
     </div>
-</div>

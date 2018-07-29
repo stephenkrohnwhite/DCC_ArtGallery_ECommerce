@@ -139,7 +139,14 @@ namespace ArtGallery_ECommerce.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
-            return View();
+            ApplicationDbContext db = new ApplicationDbContext();
+
+
+            var viewModel = new RegisterViewModel()
+            {
+
+            };
+            return View(viewModel);
         }
 
         //
