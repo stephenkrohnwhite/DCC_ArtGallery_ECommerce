@@ -15,6 +15,11 @@ namespace ArtGallery_ECommerce.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
+        public ActionResult Dashboard()
+        {
+            return View();
+        }
+
         // GET: Employees
         public ActionResult Index()
         {
@@ -58,7 +63,7 @@ namespace ArtGallery_ECommerce.Controllers
 
                 db.Employees.Add(employee);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Dashboard");
             }
 
             return View(employee);
