@@ -38,5 +38,7 @@ namespace ArtGallery_ECommerce.Models
         public Categories Category { get; set; }
 
         public IEnumerable<Categories> CategoriesList { get; set; }
+        [Display(Name="Image")]
+        public string FileImagePath { get; set; }
     }
 }
