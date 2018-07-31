@@ -79,6 +79,15 @@ namespace ArtGallery_ECommerce.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
+                    ApplicationUser user = await UserManager.FindAsync(model.Email, model.Password);
+                    if ((UserManager.IsInRole(user.Id, "Employee")))
+                    {
+                        return RedirectToAction("Dashboard","Employees");
+                    }
+                    if ((UserManager.IsInRole(user.Id, "Customer")))
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
                     return View("Lockout");

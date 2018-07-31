@@ -1,0 +1,74 @@
+﻿@using ArtGallery_ECommerce.Models
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    <div class="text-center">
+        <h1>Employee Dashboard</h1>
+    </div>
+</div>
+
+<div class="row justify-content-md-center card-deck mt-3">
+    <a href="~/StoreFront/Index/1">
+        <div class="card card border-success mb-3 mb-3 align-items-center" style="max-width: 270px;">
+            <div class="card-header text-dark">PICK LIST</div>
+            <div class="card-body">
+                <img src="~/Content/Images/abstractIcon.jpg" width="240" height="183" alt="" />
+            </div>
+        </div>
+    </a>
+</div>
+<div class="row justify-content-md-center card-deck mt-3">
+    <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+        <div class="card-header">
+            <a href="~/StoreFront/Index/2"> Art Nouveau</a>
+        </div>
+        <div class="card-body">
+            <img src="~/Content/Images/artNouveauIcon.jpg" width="160" height="190" alt="" />
+        </div>
+    </div>
+    <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+        <div class="card-header">
+            <a href="~/StoreFront/Index/5">Expressionism</a>
+        </div>
+        <div class="card-body">
+            <img src="~/Content/Images/expressionismIcon.jpg" width="160" height="183" alt="" />
+        </div>
+    </div>
+    <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+        <div class="card-header">
+            <a href="~/StoreFront/Index/3">Impressionism</a>
+        </div>
+        <div class="card-body">
+            <img src="~/Content/Images/impressionismIcon.jpg" width="240" height="183" alt="" />
+        </div>
+    </div>
+</div>
+<div class="row justify-content-md-center card-deck mt-3">
+    <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+        <div class="card-header">
+            <a href="~/StoreFront/Index/6">Photorealism</a>
+        </div>
+        <div class="card-body">
+            <img src="~/Content/Images/photorealismIcon.jpg" width="220" height="183" alt="" />
+        </div>
+    </div>
+    <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+        <div class="card-header">
+            <a href="~/StoreFront/Index/7">Pop Art</a>
+        </div>
+        <div class="card-body">
+            <img src="~/Content/Images/popArtIcon.png" width="240" height="183" alt="" />
+        </div>
+    </div>
+    <div class="card border-primary mb-3 align-items-center" style="max-width: 270px;">
+        <div class="card-header">
+            <a href="~/StoreFront/Index/4">Realism</a>
+        </div>
+        <div class="card-body">
+            <img src="~/Content/Images/realismIcon.jpeg" width="240" height="183" alt="" />
+        </div>
+    </div>
+</div>
