@@ -231,6 +231,10 @@
     <Compile Include="Migrations\201807280459503_seeding categories.Designer.cs">
       <DependentUpon>201807280459503_seeding categories.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807310127405_added imagle filepath property to product model.cs" />
+    <Compile Include="Migrations\201807310127405_added imagle filepath property to product model.Designer.cs">
+      <DependentUpon>201807310127405_added imagle filepath property to product model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -372,6 +376,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807280459503_seeding categories.resx">
       <DependentUpon>201807280459503_seeding categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807310127405_added imagle filepath property to product model.resx">
+      <DependentUpon>201807310127405_added imagle filepath property to product model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

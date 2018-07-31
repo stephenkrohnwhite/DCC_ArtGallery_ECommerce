@@ -256,3 +256,4 @@ C:\Users\Anina\Desktop\VSProjects\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\
 C:\Users\Anina\Desktop\VSProjects\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.seedingcategories.resources
 C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.fixedspellingerrorincreaterolls.resources
 C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.seedingcategories.resources
+C:\Users\steph\Documents\DevCodeCamp\ASP.net\DCC_ArtGallery_ECommerce\ArtGallery_ECommerce\ArtGallery_ECommerce\obj\Debug\ArtGallery_ECommerce.Migrations.addedimaglefilepathpropertytoproductmodel.resources
