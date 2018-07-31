@@ -260,6 +260,7 @@
     <Content Include="Content\Images\impressionismIcon.jpg" />
     <Content Include="Content\Images\oilBeginnersClassAd.jpg" />
     <Content Include="Content\Images\photorealismIcon.jpg" />
+    <Content Include="Content\Images\pickListIcon.png" />
     <Content Include="Content\Images\popArtIcon.png" />
     <Content Include="Content\Images\realismIcon.jpeg" />
     <Content Include="Content\SketchyTheme.css" />
