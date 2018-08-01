@@ -29,6 +29,8 @@ namespace ArtGallery_ECommerce.Migrations
             //    );
             //
 
+
+
             //context.Categories.AddOrUpdate(
             //    p => p.Name,
             //    new Categories { Name = "Abstract" },
