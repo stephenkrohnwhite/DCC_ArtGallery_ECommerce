@@ -18,21 +18,12 @@
         @Html.AntiForgeryToken()
         @Html.ValidationSummary(true);
 
-        <div>
-            @Html.LabelFor(m => m.Title)
-            @Html.EditorFor(m => m.Title)
-        </div>
-        <div>
-            @Html.LabelFor(m => m.AltText)
-            @Html.EditorFor(m => m.AltText)
-        </div>
-        <div>
-            @Html.LabelFor(m => m.Caption)
-            @Html.EditorFor(m => m.Caption)
-        </div>
-        <div>
-            @Html.LabelFor(m => m.ImageUpload)
-            @Html.TextBoxFor(m => m.ImageUpload, new { type = "file" })
+        
+        <div class="form-group"></div>
+            @Html.LabelFor(m => m.ImageUpload, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                 @Html.TextBoxFor(m => m.ImageUpload, new { type = "file" })
+            </div>
         </div>
 
 
