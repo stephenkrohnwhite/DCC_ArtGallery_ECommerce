@@ -28,12 +28,12 @@ namespace ArtGallery_ECommerce.Models
         public int CategoryId { get; set; }
         public IEnumerable<Categories> CategoriesList { get; set; }
         [Required]
-        public string Title { get; set; }
+        //public string Title { get; set; }
 
-        public string AltText { get; set; }
+        //public string AltText { get; set; }
 
-        [DataType(DataType.Html)]
-        public string Caption { get; set; }
+        //[DataType(DataType.Html)]
+        //public string Caption { get; set; }
 
         [DataType(DataType.Upload)]
         public HttpPostedFileBase ImageUpload { get; set; }
